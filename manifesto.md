@@ -7,13 +7,15 @@ A system administered by a select few tends to reflect only the interests of man
 
 As an example of the failure of a conventional bugtracker, consider the following typical scenario.
 
-> Bug: 1 - Status: Accepted<br/>
-> Description: The software pizzas when it should hot dog.<br/>
-> Comment: I've seen this too, it does pizza sometimes.
+> **Bug:** 1<br/>
+> **Status:** Accepted<br/>
+> **Description:** The software pizzas when it should hotdog.<br/>
+> **Comment:** I've seen this too, it does pizza sometimes.
 
-> Bug: 2 - Status: Closed (Duplicate)<br/>
-> Description: The software hot dogs when it should pizza.<br/>
-> Comment: Looks like the same underlying cause as Issue 1.
+> **Bug:** 2<br/>
+> **Status:** Closed (Duplicate)<br/>
+> **Description:** The software hotdogs when it should pizza.<br/>
+> **Comment:** Looks like the same underlying cause as Issue 1.
 
 There are three error reports in this example - bug 1, bug 2, and the comment on bug 1 that agrees with it - and this is not reflected by the result (one open bug with two comments on it).
 
